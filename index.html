@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portfolio website for Suryapratap Singh featuring backend engineering experience, projects, and contact information."
+  >
+  <title>Suryapratap Singh | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow"></div>
+
+  <header class="topbar">
+    <nav class="navbar">
+      <a class="brand" href="#top">
+        <span class="brand-first">Suryapratap</span>
+        <span class="brand-last">Singh</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-resume" href="resume.pdf" download>Resume</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <h1>Hi, It's <span>Surya</span></h1>
+          <h2>Backend Engineer focused on building scalable, production-ready systems.</h2>
+          <p class="hero-text">
+            Backend Engineering Intern at Asyncotel, building production APIs for a multi-tenant
+            system. I focus on clean architecture, reliable data handling, and backends that hold
+            up under real usage.
+          </p>
+
+          <div class="social-row">
+            <a href="https://github.com/suryapratapsingh26" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.32 6.84 9.66.5.1.66-.22.66-.48 0-.24-.01-1.04-.02-1.89-2.78.62-3.37-1.2-3.37-1.2-.46-1.18-1.12-1.49-1.12-1.49-.91-.64.07-.63.07-.63 1 .08 1.54 1.05 1.54 1.05.9 1.56 2.36 1.11 2.94.85.09-.67.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05A9.33 9.33 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.32 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.58 5.07.36.31.67.91.67 1.84 0 1.33-.01 2.4-.01 2.73 0 .27.16.59.67.49A10.24 10.24 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/suryapratap-singh-/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.5H3.56V20h3.38V8.5Zm.22-3.55C7.15 3.9 6.37 3 5.26 3S3.37 3.9 3.37 4.95c0 1.04.77 1.94 1.87 1.94h.02c1.12 0 1.9-.9 1.9-1.94ZM20 12.66c0-3.08-1.65-4.51-3.86-4.51-1.78 0-2.57.98-3.01 1.67V8.5H9.75c.04.88 0 11.5 0 11.5h3.38v-6.42c0-.34.02-.68.12-.92.27-.68.88-1.38 1.92-1.38 1.35 0 1.89 1.04 1.89 2.57V20H20v-7.34Z"/>
+              </svg>
+            </a>
+            <a href="mailto:suryapratap841239@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 5H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 2-8 5-8-5h16Zm0 10H4V9l8 5 8-5v8Z"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-circle">
+            <div class="profile-ring ring-one"></div>
+            <div class="profile-ring ring-two"></div>
+            <div class="profile-core">
+              <img
+                class="profile-image"
+                src="photo.png"
+                alt="Portrait of Suryapratap Singh"
+              >
+            </div>
+          </div>
+          <div class="status-panel">
+            <span class="status-dot"></span>
+            Open to Backend / Full-Stack Software Engineering opportunities
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section reveal" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>I build backends that don't break when it matters.</h2>
+      </div>
+      <div class="panel-grid about-grid">
+        <article class="panel">
+          <p>
+            I design backend systems with strong data integrity, clear API contracts, and
+            maintainable architecture so they remain reliable under real-world usage.
+          </p>
+        </article>
+        <article class="panel">
+          <p>
+            I build projects focused on real backend challenges, concurrency, system design, and
+            API-driven workflows, not just basic CRUD apps.
+          </p>
+        </article>
+        <article class="panel">
+          <p>
+            Currently exploring distributed systems and system design, with a focus on building
+            scalable backend infrastructure.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section reveal" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technologies I work with.</h2>
+      </div>
+      <div class="panel-grid skills-grid">
+        <article class="panel skill-card">
+          <span class="panel-tag">Core Skills</span>
+          <h3>Node.js, Express.js, Prisma, MongoDB, PostgreSQL, REST API Development</h3>
+        </article>
+        <article class="panel skill-card">
+          <span class="panel-tag">Secondary</span>
+          <h3>React.js, Docker, WebSockets, System Design (Fundamentals)</h3>
+        </article>
+        <article class="panel skill-card">
+          <span class="panel-tag">Other</span>
+          <h3>C++, Python, Git, Postman, HTML, CSS</h3>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section reveal" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+      </div>
+      <div class="panel-grid single-grid">
+        <article class="panel experience-card">
+          <div class="experience-top">
+            <div>
+              <h3>Software Engineering Intern</h3>
+              <p class="meta-text">Asyncotel Technologies</p>
+            </div>
+            <span class="panel-tag">Dec 2025 - Present</span>
+          </div>
+          <ul class="impact-list">
+            <li>
+              Built 15+ production-grade REST APIs for a multi-tenant system handling HR workflows
+              such as attendance, employee records, and shift scheduling.
+            </li>
+            <li>
+              Designed tenant-isolated data architecture using Prisma, ensuring strict separation of
+              HR records across multiple client organizations.
+            </li>
+            <li>
+              Integrated backend services with internal dashboards, enabling real-time HR
+              operations management.
+            </li>
+            <li>
+              Improved system reliability by identifying edge cases and resolving production issues across multiple modules.
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section reveal" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>B.Tech in Computer Science, Vellore Institute of Technology (2022-2026)</h2>
+      </div>
+      <div class="panel-grid single-grid">
+        <article class="panel education-card">
+          <h3>Vellore Institute of Technology</h3>
+          <div class="tech-tags">
+            <span>B.Tech</span>
+            <span>Computer Science and Engineering</span>
+          </div>
+          <p>Relevant coursework: Data Structures, Operating Systems, Computer Networks, Database Management Systems, Object-Oriented Programming.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section reveal" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        
+      </div>
+      <div class="panel-grid projects-grid">
+        <article class="panel project-card">
+          <span class="panel-tag">MERN Stack</span>
+          <h3>ZapChat</h3>
+          <div class="tech-tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>WebSockets</span>
+            <span>JWT</span>
+          </div>
+          <p>Built a real-time chat system using WebSockets supporting live messaging, authentication, and user workflows.</p>
+          <p>Supports concurrent users with real-time message delivery.</p>
+          <p class="key-learning"><span class="key-label">Key learning:</span> combining authentication, API design, and real-time messaging in one application flow.</p>
+          <div class="project-links">
+            <a href="https://github.com/suryapratapsingh26/ZapChat" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="https://zap-chat-pheh.onrender.com" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+        <article class="panel project-card">
+          <span class="panel-tag">C++ Systems</span>
+          <h3>Concurrent TCP Server</h3>
+          <div class="tech-tags">
+            <span>C++</span>
+            <span>TCP Sockets</span>
+            <span>Multithreading</span>
+            <span>Concurrency</span>
+          </div>
+          <p>Multi-threaded TCP server in C++ designed to handle 100+ concurrent client connections.</p>
+          <p class="key-learning"><span class="key-label">Key learning:</span> handling concurrency and resource management in multi-threaded systems.</p>
+          <div class="project-links">
+            <a href="https://github.com/suryapratapsingh26/ConcurrentTCPServer" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
+        <article class="panel project-card">
+          <span class="panel-tag">Media Processing</span>
+          <h3>ImageCompressor</h3>
+          <div class="tech-tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>C++</span>
+            <span>OpenCV</span>
+            <span>Docker</span>
+          </div>
+          <p>Designed a hybrid system combining C++ and Node.js to process and compress images efficiently via child processes.</p>
+          <p>Reduced image size efficiently using native OpenCV processing integrated with backend orchestration.</p>
+          <p class="key-learning"><span class="key-label">Key learning:</span> integrating native image processing with backend orchestration and file workflow management.</p>
+          <div class="project-links">
+            <a href="https://github.com/suryapratapsingh26/ImageCompressor" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="https://image-compressor-10l7.onrender.com/" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+        <article class="panel project-card">
+          <span class="panel-tag">Backend Utility</span>
+          <h3>URLShortener</h3>
+          <div class="tech-tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>EJS</span>
+            <span>Nanoid</span>
+          </div>
+          <p>Built a URL shortening service with collision-resistant ID generation and link tracking.</p>
+          <p>Designed to handle scalable redirect workflows.</p>
+          <p class="key-learning"><span class="key-label">Key learning:</span> designing compact identifier-based routing and thinking through persistence for redirect workflows.</p>
+          <div class="project-links">
+            <a href="https://github.com/suryapratapsingh26/URLShortener" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a href="https://url-shortener-86e8.onrender.com/" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section reveal" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch.</h2>
+      </div>
+      <div class="panel-grid contact-grid">
+        <article class="panel contact-card">
+          <h3>Email</h3>
+          <a href="mailto:suryapratap841239@gmail.com">suryapratap841239@gmail.com</a>
+        </article>
+        <article class="panel contact-card">
+          <h3>GitHub</h3>
+          <a href="https://github.com/suryapratapsingh26" target="_blank" rel="noreferrer">github.com/suryapratapsingh26</a>
+        </article>
+        <article class="panel contact-card">
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/suryapratap-singh-/" target="_blank" rel="noreferrer">linkedin.com/in/suryapratap-singh-/</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Suryapratap Singh. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
